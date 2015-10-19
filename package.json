@@ -1,0 +1,35 @@
+{
+  "name": "restabase",
+  "version": "0.0.1",
+  "description": "REST interface for your database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marin-liovic/restabase"
+  },
+  "keywords": [
+    "rest",
+    "database"
+  ],
+  "author": "Marin Liovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marin-liovic/restabase/issues"
+  },
+  "dependencies": {
+    "restify": "=4.0.2",
+    "rsvp": "=3.1.0",
+    "sequelize": "=3.9.0",
+    "mysql": "=2.9.0",
+    "lodash": "=3.10.1",
+    "sequelize-auto": "=0.1.4",
+    "rimraf": "=2.4.3"
+  },
+  "devDependencies": {
+    "mocha": "=2.3.2",
+    "chai": "=3.2.0"
+  }
+}

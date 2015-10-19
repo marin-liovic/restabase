@@ -1,0 +1,18 @@
+{
+  "schema": "restabase",
+  "username": "restabase",
+  "password": "restabase",
+  "options": {
+    "dialect": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "logging": false,
+    "pool": {
+      "maxConnections": 5,
+      "minConnections": 1
+    },
+    "define": {
+      "timestamps": false
+    }
+  }
+}
