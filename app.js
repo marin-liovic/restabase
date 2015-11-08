@@ -12,7 +12,12 @@ var DATABASE_CONFIG = require('./config/database.json');
 var server = restify.createServer({name: 'restabase'});
 
 //init sequelize
-var sequelize = new Sequelize(DATABASE_CONFIG.schema, DATABASE_CONFIG.username, DATABASE_CONFIG.password, DATABASE_CONFIG.options);
+var sequelize = new Sequelize(
+  DATABASE_CONFIG.schema,
+  DATABASE_CONFIG.username,
+  DATABASE_CONFIG.password,
+  DATABASE_CONFIG.options
+);
 
 //init modules
 tablesMeta(server, sequelize);
