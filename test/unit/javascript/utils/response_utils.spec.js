@@ -5,7 +5,7 @@ var responseUtils = require('../../../../src/javascript/utils/response_utils');
 var expect = ENVIRONMENT.expect;
 var sinon = ENVIRONMENT.sinon;
 
-describe('response_utils', function() {
+describe('/utils/response_utils', function() {
 
   describe('getErrorHandler', function() {
     var response = {
