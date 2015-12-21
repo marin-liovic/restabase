@@ -4,7 +4,7 @@
   "description": "REST interface for your database.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha ./test --recursive"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
     "mysql": "=2.9.0",
     "lodash": "=3.10.1",
     "sequelize-auto": "=0.1.4",
-    "rimraf": "=2.4.3"
+    "rimraf": "=2.4.3",
+    "minimist": "=1.2.0"
   },
   "devDependencies": {
     "mocha": "=2.3.2",

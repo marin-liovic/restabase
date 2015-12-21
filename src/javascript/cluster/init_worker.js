@@ -20,6 +20,8 @@ module.exports = function initWorker() {
     DATABASE_CONFIG.options
   );
 
+  server.use(restify.queryParser());
+
   //init modules
   tablesMeta(server, sequelize);
   data(server, sequelize);
