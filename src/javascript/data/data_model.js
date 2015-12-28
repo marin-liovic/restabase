@@ -8,7 +8,10 @@ module.exports = function dataModelCreator(sequelize) {
       return getModel(sequelize, options.table)
         .then(function(model) {
           return model.findAll({
-            attributes: options.attributes
+            attributes: options.attributes,
+            where: options.where,
+            limit: options.pagination.limit,
+            offset: options.pagination.offset
           });
         });
     }
