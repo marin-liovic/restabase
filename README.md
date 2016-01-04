@@ -1,5 +1,5 @@
 # restabase
-REST inteface for your database.
+REST inteface for your MySQL/Maria database.
 
 ##Instructions
 ###Install
