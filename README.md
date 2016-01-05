@@ -1,5 +1,8 @@
 # restabase
-REST inteface for your MySQL/Maria database.
+REST interface for your SQL database.
+
+*restabase* uses *sequelize* ORM and should support [all databases sequelize does](http://docs.sequelizejs.com/en/latest/).
+*NOTE: It has been tested only with MySQL.*
 
 ##Instructions
 ###Install
